@@ -126,17 +126,6 @@ document.addEventListener("DOMContentLoaded", function tableLoad() {
         t.addEventListener("drop",dragDrop);
     }
     
-    //for mobile touch devices
-    let forMobileDeviceItems = document.getElementsByClassName("item-card");
-    for(let i of forMobileDeviceItems)
-    {
-        i.addEventListener("touchmove",function(ev)
-        {
-            var touchLocation = ev.targetTouches[0];
-            i.style.left = touchLocation.pageX + "px";
-            i.style.top = touchLocation.pageY + "px";
-        })
-    }
 
 });
 
