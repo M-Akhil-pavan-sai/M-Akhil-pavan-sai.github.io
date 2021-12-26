@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Restaurant Application</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- custom styles-->
+        <link rel="stylesheet" href="./css/styles.css" />
+    </head>
+    <body>
+        <h6 id="akhil"></h6>
+            <div class="div-2">
+                <div id="tables-container">
+                    <h1 class="heading-center">Tables</h1>
+                    <input type="text" id="myTableInput" placeholder="Search Table  &#128269;" onkeyup="searchTable();"/>
+                </div>
+                <div id="menu-container">
+                    <h1 class="heading-center">Menu</h1>
+                    <input type="text" id="myItemInput" placeholder="Search Menu - By Course or By Food &#128269;" onkeyup="searchItem();"/>
+                </div>
+            </div>
+
+        <!-- script tags-->
+        <script type="text/javascript" src="./js/menu-items.js"></script>
+        <script type="text/javascript" src="./js/tables.js"></script>
+        <script type="text/javascript" src="./js/scripts.js"></script>
+    </body>
+</html>
